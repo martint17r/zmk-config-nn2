@@ -6,10 +6,9 @@
 
 
 #define DEFAULT 0
-#define MAC     1
-#define LOWER   2
-#define RAISE   3
-#define ADJUST  4
+#define LOWER   1
+#define RAISE   2
+#define ADJUST  3
 
 #define HYPER(key) LS(LC(LA(LG(key))))
 #define MEH(key)   LS(LC(LA(key)))
@@ -44,17 +43,6 @@
               &ext_power EP_ON &kp BSLH &mo LOWER  &kp RIGHT                            &kp DOWN  &mo RAISE    &kp LBKT  &ext_power EP_ON
                                                       &mo LOWER &kp MINUS   &kp LBKT  &mo RAISE
                                                       &kp EQUAL &kp MINUS   &kp LBKT  &kp RBKT
-            >;
-        };
-
-        mac_layer {
-            bindings = <
-&trans   &trans     &trans     &trans     &trans     &trans                     &trans     &trans    &trans    &trans    &trans   &trans
-&trans   &trans     &trans     &trans     &trans     &trans                     &trans     &trans    &trans    &trans    &trans   &trans
-&trans   &trans     &trans     &trans     &trans     &trans                     &trans     &trans    &trans    &trans    &trans   &trans
-         &trans     &trans     &trans     &trans                                           &trans    &trans    &trans    &trans
-                                                     &trans  &trans     &trans  &trans
-                                                     &trans  &trans     &trans  &trans
             >;
         };
 
