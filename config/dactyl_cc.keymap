@@ -39,10 +39,10 @@
             bindings = <
     &bt BT_CLR   &kp Q     &kp W    &kp E     &kp R     &kp T                              &kp Y     &kp U     &kp I     &kp O     &kp P    &bt BT_CLR
     &bt BT_SEL 0 &kp A     &kp S    &kp D     &kp F     &kp G                              &kp H     &kp J     &kp K     &kp L     &kp SEMI &bt BT_SEL 0
-    &kp LSHFT    &kp Z     &kp X    &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
-                 &kp A     &kp B    &kp Cm    &kp D                            &kp i  &kp j    &kp k  &kp l
-                                                      &kp E &kp F   &kp m  &kp n
-                                                      &kp G &kp H   &kp o  &kp p
+    &bootloader  &kp Z     &kp X    &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &bootloader
+                 &kp A     &kp B    &kp C     &kp D                            &kp I  &kp J    &kp K  &kp L
+                                                      &kp E &kp F   &kp M  &kp N
+                                                      &kp G &kp H   &kp O  &kp P
             >;
         };
 
