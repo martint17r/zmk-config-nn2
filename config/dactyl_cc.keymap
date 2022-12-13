@@ -40,9 +40,9 @@
     &bt BT_CLR   &kp Q     &kp W    &kp E     &kp R     &kp T                              &kp Y     &kp U     &kp I     &kp O     &kp P    &bt BT_CLR
     &bt BT_SEL 0 &kp A     &kp S    &kp D     &kp F     &kp G                              &kp H     &kp J     &kp K     &kp L     &kp SEMI &bt BT_SEL 0
     &bootloader  &kp Z     &kp X    &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &bootloader
-                 &kp A     &kp B    &kp C     &kp D                            &kp I  &kp J    &kp K  &kp L
-                                                      &kp E &kp F   &kp M  &kp N
-                                                      &kp G &kp H   &kp O  &kp P
+                 &kp LCTRL &kp LALT &lt RAISE RET     &mt LSHIFT SPACE                     &kp BSPC  &mt LOWER SPACE &kp RALT  &kp RCTRL
+                                                      &kp E &mt LCTRL TAB   &kp LGUI  &kp DEL
+                                                      &kp SPACE  &kp ESC           &kp ESC  &kp SPACE
             >;
         };
 
