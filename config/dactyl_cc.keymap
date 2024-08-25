@@ -50,7 +50,7 @@
             bindings = <
     &trans    &kp LS(N1) &kp RA(L) &kp RA(N8) &kp RA(N9) &kp RA(N7)                 &kp LS(NUBS)  &kp LS(N4) &kp RBRC     &kp LS(MINUS)  &kp EQUAL &trans
     &trans    &kp BSLH   &kp RA(E) &kp LS(N8) &kp LS(N9) &kp LS(BSLH)               &kp RBKT      &kp MINUS  &kp HASH     &kp LS(N2)     &kp PLUS  &trans
-    &trans    &kp LS(N5) &kp NUBS  &kp RA(N5) &kp RA(N6) &kp RA(N)                  &kp LS(CARET) &kp LS(N0) &kp LS(N7)   &kp LS(LA(N7)) &&kp LS(GRAVE) &trans
+    &trans    &kp LS(N5) &kp NUBS  &kp RA(N5) &kp RA(N6) &kp RA(N)                  &kp LS(CARET) &kp LS(N0) &kp LS(N7)   &kp LS(LA(N7)) &kp LS(GRAVE) &trans
              &trans     &trans     &trans     &trans                                                 &kp DEL    &trans       &trans         &trans
                                                          &trans  &trans     &trans  &trans
                                                          &trans  &trans     &trans  &trans
